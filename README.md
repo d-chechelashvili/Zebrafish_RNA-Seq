@@ -111,7 +111,7 @@
 
 საბოლოო pipeline:
 
-![My Remote Image](https://drive.google.com/file/d/1S4V9yAodWMFKZDP8zJpW2g2F91P9VdEV/view?usp=sharing)
+![PipelineImage](https://drive.google.com/uc?export=view&id=1S4V9yAodWMFKZDP8zJpW2g2F91P9VdEV)
 
 ## ანალიზი
 
