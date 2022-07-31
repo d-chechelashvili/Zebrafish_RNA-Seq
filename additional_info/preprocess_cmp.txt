@@ -1,0 +1,74 @@
+FILE: SRR633543
+
+--------- FASTP: ------------
+
+Read1 before filtering:
+total reads: 9586343
+total bases: 345108348
+Q20 bases: 322128122(93.3412%)
+Q30 bases: 313601175(90.8704%)
+
+Read2 before filtering:
+total reads: 9586343
+total bases: 345108348
+Q20 bases: 323224585(93.6589%)
+Q30 bases: 314093715(91.0131%)
+
+Read1 after filtering:
+total reads: 8786440
+total bases: 315061266
+Q20 bases: 313699728(99.5678%)
+Q30 bases: 307269520(97.5269%)
+
+Read2 after filtering:
+total reads: 8786440
+total bases: 315623741
+Q20 bases: 314356706(99.5986%)
+Q30 bases: 308187868(97.6441%)
+
+Filtering result:
+reads passed filter: 17572880
+reads failed due to low quality: 92662
+reads failed due to too many N: 1566
+reads failed due to too short: 1505578
+reads with adapter trimmed: 100438
+bases trimmed due to adapters: 338289
+reads with polyX in 3' end: 23386
+bases trimmed in polyX tail: 254436
+
+Duplication rate: 8.6913%
+
+Insert size peak (evaluated by paired-end reads): 41
+
+TIME: 15-20 sec
+
+--------- PRINSEQ: ------------
+
+
+Input sequences (file 1): 9,586,343
+Input bases (file 1): 345,108,348
+Input mean length (file 1): 36.00
+Input sequences (file 2): 9,586,343
+Input bases (file 2): 345,108,348
+Input mean length (file 2): 36.00
+Good sequences (pairs): 8,020,495
+Good bases (pairs): 577,465,116
+Good mean length (pairs): 72.00
+Good sequences (singletons file 1): 341,445 (3.56%)
+Good bases (singletons file 1): 12,291,377
+Good mean length (singletons file 1): 36.00
+Good sequences (singletons file 2): 353,853 (3.69%)
+Good bases (singletons file 2): 12,738,548
+Good mean length (singletons file 2): 36.00
+Bad sequences (file 1): 1,224,403 (12.77%)
+Bad bases (file 1): 44,078,508
+Bad mean length (file 1): 36.00
+Bad sequences (file 2): 1,211,995 (12.64%)
+Bad bases (file 2): 43,631,820
+Bad mean length (file 2): 36.00
+Sequences filtered by specified parameters:
+trim_qual_left: 812405
+min_len: 361907
+min_qual_score: 1262086
+
+TIME: 7-10 min
