@@ -110,19 +110,8 @@
     9.5) Cuffdiff-ის გასაშვები სკრიპტი არის runcuffdiff.sh ფაილში. Cuffdiff მოჰყვა Cufflinks package-ს.
 
 საბოლოო pipeline:
-                                           hisat2_build
-                                  /                             \
-fastq-dump -> fastp -> repair ->                                   -> 
-                                  \                             /
-                                    hisat2_extract_splice_sites
 
- -> hisat2 -> samtools sort -> picard ->
-
-                                         StringTie -eB (-> Ballgown)
-                                      /
- -> StringTie -> StringTie --merge ->
-                                      \
-                                         Cuffdiff (-> CummerBund)
+![My Remote Image](https://drive.google.com/file/d/1S4V9yAodWMFKZDP8zJpW2g2F91P9VdEV/view?usp=sharing)
 
 ## ანალიზი
 
